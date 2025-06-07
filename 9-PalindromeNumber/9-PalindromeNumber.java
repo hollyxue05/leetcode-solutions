@@ -1,4 +1,4 @@
-// Last updated: 6/6/2025, 10:02:36 PM
+// Last updated: 6/6/2025, 10:02:46 PM
 import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Queue;
@@ -25,7 +25,7 @@ class Solution {
 
         // return true;
 
-        for (int i=0; i < s.length()/2; i++) {
+        for (int i = 0; i < s.length()/2; i++) {
             if (s.charAt(i) != s.charAt(s.length()-i-1))     return false;
         }
 
